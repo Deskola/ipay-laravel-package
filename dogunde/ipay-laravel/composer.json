@@ -1,0 +1,26 @@
+{
+    "name": "dogunde/ipay-laravel",
+    "description": "Laravel wrapper for ipay web API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deskola",
+            "email": "denisogunde@gmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Dogunde\\Ipay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dogunde\\Ipay\\IpayServiceProvider"
+            ]
+        }
+    }
+}

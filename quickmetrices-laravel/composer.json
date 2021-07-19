@@ -1,0 +1,25 @@
+{
+    "name": "dogunde/quickmetrices-laravel",
+    "description": "Laravel wrapper for Quickmetrices",
+    "authors": [
+        {
+            "name": "Deskola",
+            "email": "denisogunde@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dogunde\\Quickmetrices\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dogunde\\Quickmetrices\\QuickmetricesServiceProvider"
+            ]
+        }
+    }
+}
